@@ -1,0 +1,13 @@
+## lambda 引数:処理
+
+# 引数が一つのラムダ関数
+f = lambda x: x * 2
+print(f(3))  # 出力: 6
+
+# 引数が二つのラムダ関数
+add = lambda x, y: x + y
+print(add(3, 4))  # 出力: 7
+
+# 引数が三つのラムダ関数
+calc = lambda x, y, z: (x + y) * z
+print(calc(1, 2, 3))  # 出力: 9
